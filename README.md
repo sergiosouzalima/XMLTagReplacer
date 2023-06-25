@@ -3,7 +3,7 @@
 # XMLTagReplacer
 
 <div id="portuguese"></div>
-XMLTagReplacer
+
 <p align="right">(<a href="#english">English version</a>)</p>
 
 Este repositório contém código Go para o XMLTagReplacer, um aplicativo de linha de comando que processa arquivos XML e substitui o conteúdo de uma tag específica.
@@ -12,6 +12,7 @@ Com o XMLTagReplacer, você pode facilmente substituir o conteúdo de uma tag em
 
 ## Como usar o XMLTagReplacer:
 Baixe o XMLTagReplacer para seu computador:
+
 Para usar o XMLTagReplacer, você deve primeiro baixar o arquivo XMLTagReplacer para sua máquina.
 
 O XMLTagReplacer está disponível neste repositório para dois principais sistemas operacionais: Linux e Windows 10.
@@ -26,8 +27,10 @@ Então, execute o XMLTagReplacer: simplesmente digite XMLTagReplacer [tag] [newv
 ## Recursos do XMLTagReplacer:
 1. Substituição de conteúdo de tag específica em todos os arquivos XML no diretório atual e subdiretórios
 Exemplo: XMLTagReplacer mytag false
+
 2. Opção para visualizar a versão do programa.
 Exemplo: XMLTagReplacer --version ou XMLTagReplacer -v
+
 3. Opção para visualizar a ajuda do programa.
 Exemplo: XMLTagReplacer --help ou XMLTagReplacer -h
 
@@ -42,6 +45,7 @@ With XMLTagReplacer, you can easily replace the contents of a tag in all XML fil
 
 ## How to Use XMLTagReplacer:
 Download XMLTagReplacer to your computer:
+
 To use XMLTagReplacer, you must first download the XMLTagReplacer file to your machine.
 
 XMLTagReplacer is available in this repository for two major operating systems: Linux and Windows 10.
@@ -56,7 +60,9 @@ Then, run XMLTagReplacer: simply type XMLTagReplacer [tag] [newvalue] and hit EN
 ## XMLTagReplacer Features:
 1. Replace specific tag content in all XML files in the current directory and subdirectories.
 Example: XMLTagReplacer mytag false
+
 2. Option to view the program version.
 Example: XMLTagReplacer --version or XMLTagReplacer -v
+
 3. Option to view program help.
 Example: XMLTagReplacer --help or XMLTagReplacer -h
