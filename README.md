@@ -52,8 +52,8 @@ XMLTagReplacer --help ou XMLTagReplacer -h
 # XMLTagReplacer
 
 <p align="right">(<a href="#portuguese">Versao em Portugues</a>)</p>
-This repository contains Go code for a command-line application that processes XML files and replaces the contents of a specific tag.
 
+This repository contains Go code for a command-line application that processes XML files and replaces the contents of a specific tag.
 
 With XMLTagReplacer, you can easily replace the contents of a tag in all XML files in the current directory and its subdirectories.
 
