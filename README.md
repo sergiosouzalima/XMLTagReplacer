@@ -24,7 +24,7 @@ Abra o terminal e navegue até o diretório onde você salvou o programa XMLTagR
 Então, execute o XMLTagReplacer: simplesmente digite XMLTagReplacer [tag] [newvalue] e pressione ENTER.
 
 ## Recursos do XMLTagReplacer:
-1. Substituição de conteúdo de tag específica em todos os arquivos XML no diretório atual e subdiretórios.
+1. Substituição de conteúdo de tag específica em todos os arquivos XML no diretório atual e subdiretórios
 Exemplo: XMLTagReplacer mytag false
 2. Opção para visualizar a versão do programa.
 Exemplo: XMLTagReplacer --version ou XMLTagReplacer -v
