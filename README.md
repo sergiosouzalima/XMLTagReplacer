@@ -11,7 +11,7 @@ Este repositório contém código Go para o XMLTagReplacer, um aplicativo de lin
 Com o XMLTagReplacer, você pode facilmente substituir o conteúdo de uma tag em todos os arquivos XML no diretório atual e seus subdiretórios.
 
 ## Como usar o XMLTagReplacer:
-Baixe o XMLTagReplacer para seu computador:
+Baixe o XMLTagReplacer para seu computador.
 
 Para usar o XMLTagReplacer, você deve primeiro baixar o arquivo XMLTagReplacer para sua máquina.
 
@@ -22,7 +22,9 @@ Localize a pasta correspondente ao seu sistema operacional e baixe o arquivo "XM
 ## Execute o programa XMLTagReplacer:
 Abra o terminal e navegue até o diretório onde você salvou o programa XMLTagReplacer.
 
-Então, execute o XMLTagReplacer: simplesmente digite XMLTagReplacer [tag] [newvalue] e pressione ENTER.
+Então, execute o XMLTagReplacer:
+
+simplesmente digite XMLTagReplacer [tag] [newvalue] e pressione ENTER.
 
 ## Recursos do XMLTagReplacer:
 1. Substituição de conteúdo de tag específica em todos os arquivos XML no diretório atual e subdiretórios
@@ -44,7 +46,7 @@ This repository contains Go code for a command-line application that processes X
 With XMLTagReplacer, you can easily replace the contents of a tag in all XML files in the current directory and its subdirectories.
 
 ## How to Use XMLTagReplacer:
-Download XMLTagReplacer to your computer:
+Download XMLTagReplacer to your computer.
 
 To use XMLTagReplacer, you must first download the XMLTagReplacer file to your machine.
 
