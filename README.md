@@ -12,7 +12,7 @@ Com o XMLTagReplacer, você pode facilmente substituir o conteúdo de uma tag em
 
 ## Como usar o XMLTagReplacer:
 
-# Baixe o XMLTagReplacer para seu computador.
+### Baixe o XMLTagReplacer para seu computador.
 
 Para usar o XMLTagReplacer, você deve primeiro baixar o arquivo XMLTagReplacer para sua máquina.
 
@@ -59,7 +59,7 @@ With XMLTagReplacer, you can easily replace the contents of a tag in all XML fil
 
 ## How to Use XMLTagReplacer:
 
-# Download XMLTagReplacer to your computer.
+### Download XMLTagReplacer to your computer.
 
 To use XMLTagReplacer, you must first download the XMLTagReplacer file to your machine.
 
