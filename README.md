@@ -71,19 +71,19 @@ Then, run XMLTagReplacer: simply type XMLTagReplacer [tag] [newvalue] and hit EN
 
 ## XMLTagReplacer Features:
 1. Replace specific tag content in all XML files in the current directory and subdirectories.
-Exemplo:
+Example:
 ```bash
 XMLTagReplacer mytag false
 ```
 
 2. Option to view the program version.
-Exemplo:
+Example:
 ```bash
 XMLTagReplacer --version or XMLTagReplacer -v
 ```
 
 3. Option to view program help.
-Exemplo:
+Example:
 ```bash
 XMLTagReplacer --help or XMLTagReplacer -h
 ```
