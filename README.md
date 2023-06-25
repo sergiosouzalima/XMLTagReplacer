@@ -23,26 +23,27 @@ Localize a pasta correspondente ao seu sistema operacional e baixe o arquivo "XM
 Abra o terminal e navegue até o diretório onde você salvou o programa XMLTagReplacer.
 
 Então, execute o XMLTagReplacer:
-
-simplesmente digite
 ```bash
 XMLTagReplacer [tag] [newvalue] e pressione ENTER.
 ```
 
 ## Recursos do XMLTagReplacer:
-1. Substituição de conteúdo de tag específica em todos os arquivos XML no diretório atual e subdiretórios
+1. Substituição de conteúdo de tag específica em todos os arquivos XML no diretório atual e subdiretórios.
+Exemplo:
 ```bash
-Exemplo: XMLTagReplacer mytag false
+XMLTagReplacer mytag false
 ```
 
 2. Opção para visualizar a versão do programa.
+Exemplo:
 ```bash
-Exemplo: XMLTagReplacer --version ou XMLTagReplacer -v
+XMLTagReplacer --version ou XMLTagReplacer -v
 ```
 
 3. Opção para visualizar a ajuda do programa.
+Exemplo:
 ```bash
-Exemplo: XMLTagReplacer --help ou XMLTagReplacer -h
+XMLTagReplacer --help ou XMLTagReplacer -h
 ```
 
 <div id="english"></div>
@@ -70,16 +71,19 @@ Then, run XMLTagReplacer: simply type XMLTagReplacer [tag] [newvalue] and hit EN
 
 ## XMLTagReplacer Features:
 1. Replace specific tag content in all XML files in the current directory and subdirectories.
+Exemplo:
 ```bash
-Example: XMLTagReplacer mytag false
+XMLTagReplacer mytag false
 ```
 
 2. Option to view the program version.
+Exemplo:
 ```bash
-Example: XMLTagReplacer --version or XMLTagReplacer -v
+XMLTagReplacer --version or XMLTagReplacer -v
 ```
 
 3. Option to view program help.
+Exemplo:
 ```bash
-Example: XMLTagReplacer --help or XMLTagReplacer -h
+XMLTagReplacer --help or XMLTagReplacer -h
 ```
