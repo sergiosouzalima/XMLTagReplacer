@@ -32,6 +32,7 @@ Exemplo: XMLTagReplacer --version ou XMLTagReplacer -v
 Exemplo: XMLTagReplacer --help ou XMLTagReplacer -h
 
 <div id="english"></div>
+
 # XMLTagReplacer
 
 <p align="right">(<a href="#portuguese">Versao em Portugues</a>)</p>
