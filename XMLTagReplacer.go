@@ -37,7 +37,7 @@ import (
 	"regexp"
 )
 
-const version = "1.0"
+const version = "1.1"
 
 var helpDescription = "XMLTagReplacer is a utility for replacing the contents of " +
 	"a specific XML tag in all .xml files in the current directory and its subdirectories.\n\n" +
@@ -98,7 +98,8 @@ func main() {
 	tag := os.Args[1]
 	newValue := os.Args[2]
 
-	counter := 0
+	totalCounter := 0
+	modifiedCounter := 0
 
 	err := filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
 		if err != nil {
@@ -106,8 +107,9 @@ func main() {
 		}
 
 		if filepath.Ext(path) == ".xml" {
+			totalCounter++
 			if processFile(path, tag, newValue) {
-				counter++
+				modifiedCounter++
 			}
 		}
 
@@ -118,5 +120,6 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Printf("Number of XML files where '<%s>' tag content was replaced: %d\n", tag, counter)
+	fmt.Printf("Number of XML files read: %d\n", totalCounter)
+	fmt.Printf("Number of XML files where '<%s>' tag content was replaced: %d\n", tag, modifiedCounter)
 }
