@@ -1,7 +1,7 @@
 /*
 XMLTagReplacer.go
 Author: Sergio Lima
-Date: 24 June 2023
+Creation date: 24 June 2023
 
 XMLTagReplacer is a command-line utility written in Go.
 It replaces the contents of a specific XML tag in all .xml files
@@ -39,7 +39,7 @@ import (
 
 const version = "1.1"
 
-var helpDescription = "XMLTagReplacer is a utility for replacing the contents of " +
+const helpDescription = "XMLTagReplacer is a utility for replacing the contents of " +
 	"a specific XML tag in all .xml files in the current directory and its subdirectories.\n\n" +
 	"Usage:\n" +
 	"XMLTagReplacer [tag] [newvalue]: Replace the contents of [tag] with [newvalue] " +
@@ -102,9 +102,7 @@ func main() {
 	modifiedCounter := 0
 
 	err := filepath.Walk(".", func(path string, info os.FileInfo, err error) error {
-		if err != nil {
-			log.Fatal(err)
-		}
+		check(err)
 
 		if filepath.Ext(path) == ".xml" {
 			totalCounter++
@@ -116,9 +114,7 @@ func main() {
 		return nil
 	})
 
-	if err != nil {
-		log.Fatal(err)
-	}
+	check(err)
 
 	fmt.Printf("Number of XML files read: %d\n", totalCounter)
 	fmt.Printf("Number of XML files where '<%s>' tag content was replaced: %d\n", tag, modifiedCounter)
